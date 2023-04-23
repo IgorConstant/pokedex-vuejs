@@ -1,0 +1,45 @@
+body {
+  background-color: #2a2b2d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+p,
+a,
+option,
+li,
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.cardBody {
+  transition: transform 0.5s;
+}
+
+.cardBody:hover {
+  transform: scale(1.05);
+}
+
+.cardheadertitle {
+  color: #fff;
+  font-weight: 700;
+}
+
+.badge {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  margin: 10px 0px 0px 5px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 25px;
+}
